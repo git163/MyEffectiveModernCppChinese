@@ -49,7 +49,7 @@ Thumbs.db
 *.out
 *.app
 
-.vscode
+
 .netrwhist
 
 .idea

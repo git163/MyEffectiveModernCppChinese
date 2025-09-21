@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug(MinGW)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/code/src/main.exe",  // 替换为你的可执行文件路径
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,  // 在外部控制台运行（推荐 Windows）
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:/Program Files/JetBrains/CLion 2024.1/bin/gdb/win/x64/bin/gdb.exe",  // 替换为你的 gdb 路径
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+           "preLaunchTask": "CMake: lacal build"  // 可选：在调试前自动构建
+        }
+    ]
+}

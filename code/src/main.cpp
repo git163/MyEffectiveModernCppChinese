@@ -1,6 +1,9 @@
 #include<iostream>
+#include "demo01.h"
 
 int main() {
-
-    std::cout << "hello world" << std::endl;
+    People people;
+    const People &ptr = people;
+    func(ptr);
+    std::cout << "==hello world==" << std::endl;
 }
