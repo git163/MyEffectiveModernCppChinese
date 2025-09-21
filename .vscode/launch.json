@@ -20,7 +20,7 @@
                     "ignoreFailures": true
                 }
             ],
-           "preLaunchTask": "CMake: lacal build"  // 可选：在调试前自动构建
+           "preLaunchTask": "CMake: build"  // 可选：在调试前自动构建
         }
     ]
 }

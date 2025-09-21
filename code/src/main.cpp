@@ -3,7 +3,7 @@
 
 int main() {
     People people;
-    const People &ptr = people;
-    func(ptr);
+    const People * ptr = &people;
+    funcint(ptr);
     std::cout << "==hello world==" << std::endl;
 }

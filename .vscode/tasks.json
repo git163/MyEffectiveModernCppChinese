@@ -2,7 +2,7 @@
 	"tasks": [
 		{
 			"type": "cmake",
-			"label": "CMake: lacal build",
+			"label": "CMake: build",
 			"command": "build",
 			"targets": [
 				"all"
